@@ -1,0 +1,271 @@
+@font-face
+{
+font-family: Franklin Gothic Heavy;
+src: url(Franklin_Gothic_Heavy.ttf);
+}
+
+* body {
+	font-family: "Franklin Gothic Heavy", Sans-serif;
+	font-weight: bold;
+}
+/*This section colors the individual pages.*/
+
+body#index{
+	background-color: #c4b878;
+}
+body#maps{
+	background-color: #c4b878;
+}
+body#marketing{
+	background-color: #c4b878;
+}
+body#goodworks{
+	background-color: #c4b878;
+}
+body#education{
+	background-color: #c4b878;
+}
+body#contacts{
+	background-color: #c4b878;
+}
+
+nav{
+	font-size: 12pt;
+	text-align: center;
+	color: #8F9DC1;
+	text-decoration: none;
+}
+
+nav a:link{color: #8F9DC1;
+	text-decoration: none;
+}
+nav a:visited{color: #8F9DC1;
+	text-decoration: none;
+}
+
+nav a:hover{color:#A66F00;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 125pt;
+	letter-spacing: -5pt;
+	line-height: 80%;
+	margin-bottom: -10pt;
+	color: #566385;
+	text-align: center;
+	margin-top: 20pt;
+}
+/*The "Dean Olsen" for the home page has different spacing than the other pages.*/
+
+h1#index{
+	color: #566385;
+	margin-bottom: 40px;
+}
+
+/* Colors the index page links*/
+
+h2#index{
+	font-size: 54pt;
+	letter-spacing: -2pt;
+	margin-top: 30px;
+	color: #A66F00;
+	text-align: center;
+	line-height: 80%;
+	margin-bottom: 20px;
+}
+
+/* This removes underlining from index page links & creates a hover color*/
+
+h2 a:link{
+	font-size: 54pt;
+	letter-spacing: -2pt;
+	margin-top: 30px;
+	color: #A66F00;
+	text-align: center;
+	line-height: 80%;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+h2 a:visited{
+	font-size: 54pt;
+	letter-spacing: -2pt;
+	margin-top: 30px;
+	color: #A66F00;
+	text-align: center;
+	line-height: 80%;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+h2 a:hover{
+	color:#495063;
+	font-size: 54pt;
+	letter-spacing: -2pt;
+	margin-top: 30px;
+	text-align: center;
+	line-height: 80%;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+/*This section colors the section name distinctly for each page. It also moves it close to the H1.*/
+
+h2 {
+	margin-bottom: 40px;
+	margin-top: 6px;
+	text-align: center;
+	font-size: 65pt;
+	line-height: 80%;
+	letter-spacing: -3pt;
+	
+}
+
+h2#maps {
+	color: #993333;
+}
+
+h2#marketing {
+	color: #de5605;
+}
+
+h2#goodworks {
+	color: #806327;
+}
+
+h2#education {
+	color: #ffe706;
+}
+
+h2#contacts {
+	color: #807127;
+}
+
+table#ctable {
+	width: 200px;
+	align: center;
+	border-spacing: 0px;
+}
+
+/* m1 handles the text boxes on the Maps page. M2 handles the text in these sections. M3 handles the colored
+text on the Marketing page. */
+
+.m1 {
+	width: 25%;
+	height: 160px;
+	padding: 1px;
+	/*background-color: #993333;*/
+	background-color: #A09758;
+	font-size: 18pt;
+	color: #ffffff;
+	font-family: "Franklin Gothic Heavy";
+	text-align: center;
+	vertical-align: center;
+}
+
+/*.m2 {
+	width: 25%;
+	height: 160px;
+	padding: 1px;
+	font-family: "Garamond";
+	font-size: 12pt;
+	vertical-align: top;
+	border: none;
+	margin-right: 70px;
+	margin-bottom: 20px;
+}*/
+
+.marklogo {
+	vertical-align: top;
+	text-align: center;
+	padding: 10px;
+}
+
+.m3 {
+	font-size: 14pt;
+	font-family: "Franklin Gothic Heavy";
+	color: #de5605;
+	line-height: 90%;
+	margin-bottom: 20px;
+}
+
+/*Good Works page text. G1 Bold purple text. G3 the subtitle text.*/
+.g1 {
+	/*width: 19%;*/
+	margin-top: 0px;
+	margin-bottom: 5px;
+	line-height: 80%;
+	font-size: 24pt;
+	color: #630460;
+	vertical-align: top;
+	border: none;
+	letter-spacing: -2pt;
+}
+
+.g3 {
+	font-family: Garamond;
+	color: #603913;
+	font-weight: bold;
+	font-size: 14pt;
+	line-height: 14pt;
+	vertical-align: top;
+	margin-top: 0px;
+}
+
+/*The various text padding on the Education page to make the text line up correctly with the logos.*/
+.edtext {
+	padding-top: 5px;
+	font-size: 16pt;
+	vertical-align: middle;
+	line-height: 90%;
+}
+
+.edtext2 {
+	padding-top: 30px;
+	font-size: 16pt;
+	vertical-align: middle;
+	line-height: 90%;
+}
+
+.edtext3 {
+	padding-top: 30px;
+	line-height: 90%;
+	font-size: 16pt;
+	vertical-align: middle;
+}
+
+.edlogo {
+	vertical-align: top;
+	text-align: right;
+}
+
+
+/*Contact page text and padding.*/
+.ctext {
+	font-size: 18pt;
+	height: 100px;
+	padding-left: 20px;
+	vertical-align: top;
+	width: 30%;
+}
+
+.ctext1 {
+	font-size: 18pt;
+	height: 100px;
+	width: 500px;
+	vertical-align: top;
+	text-align: right;
+	width: 40%;
+}
+
+
+.footer {
+	text-align: center;
+	font-size: 10pt;
+	color: #7e827a;
+}
+
+/*Spaces out the text in the Nav bar.*/
+nav a {
+	padding-right: 10px;
+}
+
