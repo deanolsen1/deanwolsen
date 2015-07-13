@@ -1,0 +1,113 @@
+body {
+	font-family: sans-serif;
+	background-color: #E0E1E3;
+}
+
+#wrapper {
+	margin: 15px auto;
+	float: left;
+}
+#wrapper article {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: medium;
+	text-indent: 25px;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+	-webkit-column-gap: 60px; /* Chrome, Safari, Opera */
+	-moz-column-gap: 60px; /* Firefox */
+	column-gap: 60px;
+	-webkit-column-rule: 2px outset #184369; /* Chrome, Safari, Opera */
+	-moz-column-rule: 2px outset #184369; /* Firefox */
+	column-rule: 2px outset #184369;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+#map {
+	height: 450px;
+	margin: 15px auto;
+	position: relative;
+	clear: both;
+	border: thin solid #184369;
+}
+
+#headline {
+	font-style: normal;
+	color: #2974B6;
+	text-align: center;
+	font-size: x-large;
+	font-family: changa-one;
+	font-weight: 400;
+}
+
+.legend, .temporal-legend {
+    padding: 6px 10px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+#legendTitle {
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 15px;
+	font-variant: normal;
+	font-style: normal;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	font-size: 1.1em;
+}
+.symbolsContainer {
+    float: left;
+	margin-left: 50px;
+}
+.legendCircle {
+     border-radius:50%; 
+     border: 2px solid #537898; 
+     background: #FFCC00;
+	 opacity: 0.5;
+	 display: inline-block;
+}
+.legendValue {
+	position: absolute;
+	right: 18px;
+	font-size: .8em;
+	font-weight: normal;
+	font-style: italic;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	opacity: 1.0;
+}
+.range-slider {
+    width: 250px;
+    margin-left: 10px;
+}
+.temporal-legend {
+    font-size: .75em;
+    text-align: center;
+}
+#footer {
+	text-align: center;
+	font-size: small;
+	color: #F9FCFF;
+	font-weight: bolder;
+	font-style: normal;
+	background-color: #5E99CD;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	line-height: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#headline h1 {
+	display: inline;
+}
+#headline h2 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: italic;
+	color: #56565B;
+}

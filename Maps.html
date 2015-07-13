@@ -15,7 +15,10 @@
 		<!-- Latest compiled JavaScript -->
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<!-- Stylesheet links -->
+		<link rel="stylesheet" href="stylesheet.css"/>
+		<link rel="stylesheet" href="lightbox.css" />
+
 		<title>Dean Olsen, Maps</title>
 	</head>
 
@@ -26,11 +29,11 @@
 
 		<nav>
 		  <a href="index.html">Home.</a>
-		  <a href="maps.html">Maps.</a>
+		  <a href="Maps.html">Maps.</a>
 		  <a href="marketing.html">Marketing & advertising.</a>
-		  <a href="Goodworks.html">Good works.</a>
+		  <a href="goodworks.html">Good works.</a>
 		  <a href="Education.html">Education.</a>
-		  <a href="Contacts.html">Contact.</a>
+		  <a href="contacts.html">Contact.</a>
 
 		</nav>
 
@@ -38,52 +41,78 @@
 
 			<h2 id="maps">Maps.</h2>
 			
-<!--I put in extra rows and columns to space out the table correctly.-->
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>Static Maps</h3>
+				</div>
+				<div class="col-sm-6">
+					<h3>Interactive Maps</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="BingesMap.png" data-lightbox="image-1" data-title="Words, Actions, Deeds"><img src="croppedbinges1-01.png" class= "img-thumbnail" alt="America's Bingeing Problem"></a><br><br>
+				</div>
+				<div class="col-sm-3">
+					<p class="m2">This map, detailing the spatial divide with America&rsquo;s problem with alcohol, won in both the <a href="http://education.nationalgeographic.com/education/media/student-map-awards/?ar_a=1" target="_blank">2013 National Geographic Map Competition</a> and the <a href="http://www.cartogis.org/awards/winners2013.php" target="_blank">2013 Cartographic & Geographic Information Society&rsquo;s (CaGIS) Map Design Competition</a>.</p><br><br>
+				</div>
+				<div class="col-sm-3">
+					<a href="Consolidated_Paris/index.html" target="_blank"><img src="Paris.jpg" class="img-thumbnail" alt="Interactive Map of Paris, based Clerc's novel"></a><br><br>
+				</div>
+				<div class="col-sm-3">
+					<p class="m2">This interactive map recreates the journey depicted in the French experimental novelist Thomas Clerc&rsquo;s <em>Paris, mus&eacute;e du XXIe si&egrave;cle, le dixi&egrave;me arrondissement</em>. This project was received with enthusiasm at the 2015 Literature & Place conference in Lyon, France.</p><br><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="Europe.png" data-lightbox="image-2" data-title="Political Map of the European continent"><img src="Europe.png" class="img-thumbnail" alt="Political Map of Europe"></a><br><br>
+				</div>
+				<div class="col-sm-3">
+					<p class="m2">This classic political map of Europe was cited for its elegance and clarity. It has been presented in subsequent semesters as an exemplar of its genre to cartography students.</p><br><br>
+				</div>
+				<div class="col-sm-3">
+					<a href="Lab2v7/index.html" target="_blank"><img src="Camden.png" class="img-thumbnail" alt="Map of Poverty Indicators in Camden, London"></a><br><br>
+				</div>
+				<div class="col-sm-3">
+					<p class="m2">Indicators of poverty in the Camden section of London are explored in this interactive, D3-based visualization. In addition, accordian drop-down consolidate definitions of terms for a clean look that still provides necessary information on demand.</p><br><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="HIVmap.png" data-lightbox="image-3" data-title="People Living with HIV/AIDS"><img src="HIVmap.png" class="img-thumbnail" alt="Map of Spatial Distribution of HIV in the US"></a><br><br>
+				</div>
+				<div class="col-sm-3">
+					<td class="m2">This proportional symbol map documents the heavy weight of the HIV/AIDS crisis on the coasts of the United States.</td><br><br>
+				</div>
+				<div class="col-sm-3">
+					<a href="Lab_1_Dean_Olsen_Submitted/index.html" target="_blank"><img src="Airports.png" class="img-thumbnail" alt="Aircraft Movements 2000 to 2010 USA"></a><br><br>
+				</div>
+				<div class="col-sm-3">
+					<td class="m2">This interactive proportional symbol map documents the fluctuating traffic volumes at American airports during the period 2000-2010.</td><br><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="weathermap.png" data-lightbox="image-4" data-title="A lighthearted isotherm map designed for Madison&rsquo;s Isthmus weekly"><img src="weathermap.png" class="img-thumbnail" alt="Colorful weather map"></a><br><br>
+				</div>
+				<div class="col-sm-3">
+					<td class="m2">A light-hearted isotherm, weather forecast map meeting the design and editorial sensibilities of Madison&rsquo;s Isthmus weekly. </td><br><br>
+				</div>
 
-			<div class="row">
-				<div class="col-sm-3">
-					<td class="m1"><a target="_blank" href="hero'slife_sample.pdf">Hero'sLife Map</a></td>
-				</div>
-				<div class="col-sm-3">
-					<td class="m2">Prototype of screen view from Hero'sLife, initial story prompting screen.</td>
-				</div>
-				<div class="col-sm-3">
-					<td class="m1"><a target="_blank" href="evanston_lifestory.pdf">Evanston Lifestory Map</a></td>
-				</div>
-				<div class="col-sm-3">
-					<td class="m2">Emotion and lifestory map of Evanston, Illinois.</td>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-3">
-					<td class="m1"><a target="_blank" href="hero'slife_sample.pdf">Map from Hero'sLife</a></td>
-				</div>
-				<div class="col-sm-3">
-					<td class="m2">Prototype of overall map from Hero'sLife</td>
-				</div>
-				<div class="col-sm-3">
-					<td class="m1"><a target="_blank" href="chicago_from_space.pdf">Chicago Map</a></td>
-				</div>
-				<div class="col-sm-3">
-					<td class="m2">Map of Chicago as realized from space</td>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-3">
-					<td class="m1"><a target="_blank" href="art_money_chicago.pdf">Art/Money Map</a></td>
-				</div>
-				<div class="col-sm-3">
-					<td class="m2">"Where art goes, money follows." A map of the migration of artists in Chicago and subsequent real estate booms nipping at their tattered heals.</td>
-				</div>
-				<div class="col-sm-3">
-					<td class="m1"><a target="_blank" href="G370lab1map.pdf">Wisconsin Admission Office Map</a></td>
-				</div>
-				<div class="col-sm-3">
-					<td class="m2">Map from G370, University of Wisconsin-Madison.</td>
-				</div>
 
-			</div>
-	</body>
+
+
+	</div>
+	<script src="lightbox.js"></script>
+	<script>
+    lightbox.option({
+      'resizeDuration': 900,
+      'wrapAround': true,
+      'fitImagesInViewport': false
+    })
+</script>
+
+</body>
 
 
 <!-- 	<div class="navbar-fixed-bottom">

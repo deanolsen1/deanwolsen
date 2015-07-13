@@ -1,0 +1,163 @@
+.London {
+	fill: #fff;
+	stroke: #ccc;
+	stroke-width: 1px;
+}
+
+.camdenLSOAs {
+	stroke: #ccc;
+	stroke-width: 2px;
+}
+/*svg {
+	position: relative;
+}*/
+
+.map {
+	position: absolute;
+	top: 130px;
+	margin-right: 50%;
+	border: thin solid #3D2626;
+	background-color: #99D6FF;
+}
+
+/*Camden LSOA border stroke width*/
+.g {
+	stroke: #ccc;
+	stroke-width: 3px;
+}
+
+body {
+	font-family: "Gill Sans MT";
+	height: 98%;
+	margin: 2%;
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	background-color: #E8CAA0;
+	color: #3D2626;
+}
+h1 {
+	font-size: 18pt;
+	font-family: "Gill Sans MT";
+	text-align: left;
+	color: #841A1C;
+	margin-bottom: 0px;
+}
+
+h3 {
+	font-family: "Gill Sans MT";
+	font-size: 14pt;
+	margin-bottom: 1px;
+}
+
+.dropdown {
+	position: absolute;
+	font-family: "Gill Sans MT";
+	top: 140px;
+	margin-right: 70%;
+	border: solid thin #3D2626;
+	margin-left: 10px;
+	padding: 5px;
+	background-color: rgba(128,128,128,.3);
+	color: #2A2525;
+}
+
+.dropdown h3 {
+	font-size: 12pt;
+	font-weight: 600;
+	font-family: "Gill Sans MT";
+	margin-top: -1px;
+	color: #2A2525;
+
+}
+
+.dropdown select {
+	font-size: 12pt;
+	font-family: "Gill Sans MT";
+	color: #2A2525;
+	border: solid thin #3D2626;
+}
+
+.chart {
+	background-color: rgba(128,128,128,.4);
+	border: thin solid #3D2626;
+	top: 130px;
+	margin-left: 585px;
+	position: absolute;
+}
+
+.chartTitle {
+	font-size: 16pt;
+	font-family: "Gill Sans MT";
+	color: #2A2525;
+	border: thin solid #3D2626;
+}
+
+.infolabel {
+	position: fixed;
+	/*/*display: block;*/
+	top: -20px;
+	left: 5px;
+	font-size: 12pt;
+	background-color: rgba(128,128,128,.8);
+	border: solid thin #3D2626;
+	padding: 5px;
+	width: 130px;
+	height: auto;
+	color: #2A2525;
+}
+.infolabel h1 {
+	margin: 0px;
+	font-size: 12pt;
+	color: #2A2525;
+}
+
+footer {
+	font-size: 10pt;
+	display: block;
+	position: absolute;
+	top: 790px;
+	left: 50px;
+}
+
+.foottext {
+	margin: 2px;
+}
+
+#wrapper .text {
+	font-family: "Gill Sans MT";
+}
+
+.accordion {
+	z-index: 20;
+	margin-right: 6%;
+	margin-top: 370px;
+	margin-left: 585px; 
+	width: 450px;
+}
+
+dt, dd {
+    padding: 10px;
+    border: thin solid black;
+    border-bottom: 0; 
+    color: black;
+    border-bottom: thin solid black; 
+}
+
+dd .active {
+	font-size: 10px;
+}
+
+a {
+    display: block;
+    color: #841A1C;
+    font-weight: bold;
+    text-decoration: none;
+}
+   
+dd {
+     border-top: 0; 
+     position: relative;
+     top: -1px;
+}
+

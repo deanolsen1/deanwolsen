@@ -47,6 +47,10 @@ nav a:hover{color:#A66F00;
 	text-decoration: none;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
 h1 {
 	font-size: 125pt;
 	letter-spacing: -5pt;
@@ -74,6 +78,10 @@ h2#index{
 	line-height: 80%;
 	margin-bottom: 20px;
 }
+
+h3 {
+/*	text-align: center;
+*/}
 
 /* This removes underlining from index page links & creates a hover color*/
 
@@ -162,6 +170,27 @@ text on the Marketing page. */
 	vertical-align: center;
 }
 
+.thumbnail {
+	border: 3px solid rgba(153,51,51,.8);
+}
+
+.thumbnail a:link {
+	border: 3px solid rgba(153,51,51,.8);
+}
+
+.thumbnail a:hover {
+	border: 3px solid rgba(166,111,0,.8);
+}
+.thumbnail a:visited {
+	border: 3px solid rgba(153,51,51,.8);
+}
+
+.lightbox {
+	fitImagesInViewport: false;
+}
+
+div.caption {text-align:center;}
+
 /*.m2 {
 	width: 25%;
 	height: 160px;
@@ -190,15 +219,11 @@ text on the Marketing page. */
 
 /*Good Works page text. G1 Bold purple text. G3 the subtitle text.*/
 .g1 {
-	/*width: 19%;*/
-	margin-top: 0px;
-	margin-bottom: 5px;
-	line-height: 80%;
-	font-size: 24pt;
+	font-size: 30pt;
 	color: #630460;
-	vertical-align: top;
-	border: none;
 	letter-spacing: -2pt;
+	text-align: center;
+	text-decoration: none;
 }
 
 .g3 {
@@ -211,52 +236,42 @@ text on the Marketing page. */
 	margin-top: 0px;
 }
 
+.btn-info {
+	text-align: center;
+}
+
 /*The various text padding on the Education page to make the text line up correctly with the logos.*/
 .edtext {
-	padding-top: 5px;
-	font-size: 16pt;
-	vertical-align: middle;
-	line-height: 90%;
+	padding-top: 10px;
+	font-size: 14pt;
+	line-height: 95%;
 }
 
 .edtext2 {
-	padding-top: 30px;
-	font-size: 16pt;
-	vertical-align: middle;
-	line-height: 90%;
+	padding-top: 35px;
+	font-size: 14pt;
+	line-height: 95%;
 }
 
 .edtext3 {
-	padding-top: 30px;
-	line-height: 90%;
-	font-size: 16pt;
-	vertical-align: middle;
+	padding-top: 35px;
+	line-height: 95%;
+	font-size: 14pt;
 }
 
-.edlogo {
-	vertical-align: top;
-	text-align: right;
+.dl-horizontal dt {
+	width: 500px;
+	height: auto;
+	overflow: visible;
+	padding-right: 15px;
 }
-
 
 /*Contact page text and padding.*/
-.ctext {
-	font-size: 18pt;
-	height: 100px;
-	padding-left: 20px;
-	vertical-align: top;
-	width: 30%;
+.dl-horizontal dd .ctext {
+	font-size: 14pt;
+	line-height: 90%;
+	margin-top: 24px;
 }
-
-.ctext1 {
-	font-size: 18pt;
-	height: 100px;
-	width: 500px;
-	vertical-align: top;
-	text-align: right;
-	width: 40%;
-}
-
 
 .footer {
 	text-align: center;
@@ -267,5 +282,27 @@ text on the Marketing page. */
 /*Spaces out the text in the Nav bar.*/
 nav a {
 	padding-right: 10px;
+}
+
+span.glyphicon-envelope {
+	font-size: 5.8em;
+	color: #807127;
+	margin-bottom: 20px;
+	margin-right: 2px;
+}
+span.glyphicon-home {
+	font-size: 5.8em;
+	color: #566385;
+	margin-bottom: 20px;
+	margin-right: 2px;
+}
+.at {
+	font-size: 6em;
+	color: red;
+	margin-right: 7px;
+}
+
+.col-sm-3 {
+	background-color: #c4b878;
 }
 
