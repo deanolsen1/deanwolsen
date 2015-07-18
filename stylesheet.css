@@ -1,13 +1,14 @@
-@font-face
-{
-font-family: Franklin Gothic Heavy;
-src: url(Franklin_Gothic_Heavy.ttf);
+
+
+@font-face {
+	font-family: Franklin Gothic Heavy;
+	src: url(Franklin_Gothic_Heavy.ttf);
 }
 
 * body {
 	font-family: "Franklin Gothic Heavy", Sans-serif;
-	font-weight: bold;
 }
+
 /*This section colors the individual pages.*/
 
 body#index{
@@ -29,7 +30,7 @@ body#contacts{
 	background-color: #c4b878;
 }
 
-nav{
+nav {
 	font-size: 12pt;
 	text-align: center;
 	color: #8F9DC1;
@@ -47,9 +48,9 @@ nav a:hover{color:#A66F00;
 	text-decoration: none;
 }
 
-a:hover{
+/*a:hover{
 	text-decoration: none;
-}
+}*/
 
 h1 {
 	font-size: 125pt;
@@ -95,6 +96,7 @@ h2 a:link{
 	margin-bottom: 20px;
 	text-decoration: none;
 }
+
 h2 a:visited{
 	font-size: 54pt;
 	letter-spacing: -2pt;
@@ -154,59 +156,26 @@ table#ctable {
 	border-spacing: 0px;
 }
 
-/* m1 handles the text boxes on the Maps page. M2 handles the text in these sections. M3 handles the colored
-text on the Marketing page. */
-
-.m1 {
-	width: 25%;
-	height: 160px;
-	padding: 1px;
-	/*background-color: #993333;*/
-	background-color: #A09758;
-	font-size: 18pt;
-	color: #ffffff;
-	font-family: "Franklin Gothic Heavy";
-	text-align: center;
-	vertical-align: center;
-}
-
-.thumbnail {
-	border: 3px solid rgba(153,51,51,.8);
-}
-
-.thumbnail a:link {
-	border: 3px solid rgba(153,51,51,.8);
-}
-
-.thumbnail a:hover {
-	border: 3px solid rgba(166,111,0,.8);
-}
-.thumbnail a:visited {
-	border: 3px solid rgba(153,51,51,.8);
-}
-
 .lightbox {
 	fitImagesInViewport: false;
 }
 
-div.caption {text-align:center;}
+.span lb-caption {
+	text-align:center;
+	font-family: "Roboto";
+	font-size: 14pt; }
 
-/*.m2 {
-	width: 25%;
-	height: 160px;
-	padding: 1px;
-	font-family: "Garamond";
-	font-size: 12pt;
-	vertical-align: top;
-	border: none;
-	margin-right: 70px;
-	margin-bottom: 20px;
-}*/
+.m2 {
+	font-family: "Roboto";
+	font-size: 10pt;
+	text-align: justify;
+	font-weight:normal;
+}
 
 .marklogo {
 	vertical-align: top;
-	text-align: center;
-	padding: 10px;
+	text-align: right;
+	padding: 20px;
 }
 
 .m3 {
@@ -226,14 +195,19 @@ div.caption {text-align:center;}
 	text-decoration: none;
 }
 
+.g2 {
+	font-family: "Roboto";
+	font-size: 12pt;
+	margin-left: 28%;
+	margin-right: 28%;
+	text-align: justify;
+}
+
 .g3 {
-	font-family: Garamond;
+	font-family: "Roboto";
 	color: #603913;
 	font-weight: bold;
 	font-size: 14pt;
-	line-height: 14pt;
-	vertical-align: top;
-	margin-top: 0px;
 }
 
 .btn-info {
@@ -244,19 +218,24 @@ div.caption {text-align:center;}
 .edtext {
 	padding-top: 10px;
 	font-size: 14pt;
-	line-height: 95%;
+	line-height: 100%;
+	font-family: "Roboto";
+	font-weight:bold;
 }
 
 .edtext2 {
 	padding-top: 35px;
 	font-size: 14pt;
-	line-height: 95%;
+	font-family: "Roboto";
+	font-weight: bold;
+	line-height: 100%;
 }
 
 .edtext3 {
 	padding-top: 35px;
-	line-height: 95%;
+	line-height: 100%;
 	font-size: 14pt;
+	font-family: "Roboto";
 }
 
 .dl-horizontal dt {
@@ -264,7 +243,30 @@ div.caption {text-align:center;}
 	height: auto;
 	overflow: visible;
 	padding-right: 15px;
+	text-decoration: none;
 }
+.g1 a:link {
+	color:#630460;
+	text-decoration:none;
+}
+
+.g1 a:visited {
+	color:#630460;
+	text-decoration:none;
+}
+
+.g1 a:hover {
+	color:#566385;
+	text-decoration:none;
+}
+
+.g1 a:active {
+	color:#630460;
+	text-decoration:none;
+}
+
+
+
 
 /*Contact page text and padding.*/
 .dl-horizontal dd .ctext {
