@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="21" version="2.0">
+<workbenchAdvisor/>
+<window height="940" width="1474" x="150" y="110">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="137" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="com.aptana.ui.globalActionSet" itemType="typeToolBarContribution" x="168" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="91" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.css" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1437323297053" focus="true" label="Workspace - Web">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html" title="index.html" tooltip="C:\Users\student\Desktop\deanwolsen\index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/student/Desktop/deanwolsen/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="476"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.css" name="stylesheet.css" partName="stylesheet.css" title="stylesheet.css" tooltip="C:\Users\student\Desktop\deanwolsen\stylesheet.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/student/Desktop/deanwolsen/stylesheet.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3814" selectionTopPixel="5208"/>
+</editor>
+<editor id="com.aptana.editor.html" name="contacts.html" partName="contacts.html" title="contacts.html" tooltip="C:\Users\student\Desktop\deanwolsen\contacts.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/student/Desktop/deanwolsen/contacts.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1561" selectionTopPixel="1032"/>
+</editor>
+<editor id="com.aptana.editor.html" name="Maps.html" partName="Maps.html" title="Maps.html" tooltip="C:\Users\student\Desktop\deanwolsen\Maps.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/student/Desktop/deanwolsen/Maps.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="660"/>
+</editor>
+<editor id="com.aptana.editor.html" name="Education.html" partName="Education.html" title="Education.html" tooltip="C:\Users\student\Desktop\deanwolsen\Education.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/student/Desktop/deanwolsen/Education.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="960"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.aptana.snippets.ui.views.SnippetsView" partName="Snippets"/>
+<view id="com.aptana.terminal.views.terminal" partName="Terminal"/>
+<view id="com.aptana.samples.ui.SamplesView" partName="Samples"/>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.aptana.explorer.view" partName="App Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="deanwolsen">
+<project name="deanwolsen">
+<selection>
+<element path="/deanwolsen"/>
+</selection>
+</project>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.aptana.editor.css" activePerspective="com.aptana.ui.WebPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.aptana.editor.common.presentation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="com.aptana.js.debug.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<alwaysOnActionSet id="com.aptana.ui.globalActionSet"/>
+<alwaysOnActionSet id="com.aptana.terminal.actionSet"/>
+<show_view_action id="com.aptana.browser.views.webbrowser"/>
+<show_view_action id="com.aptana.explorer.view"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="com.aptana.ui.io.remoteview"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="com.aptana.samples.ui.SamplesView"/>
+<show_view_action id="com.aptana.snippets.ui.views.SnippetsView"/>
+<show_view_action id="com.aptana.terminal.views.terminal"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.aptana.webserver.ui.view"/>
+<new_wizard_action id="com.aptana.editor.php.NewPHPProjectWizard"/>
+<new_wizard_action id="com.aptana.ui.wizards.NewWebProject"/>
+<new_wizard_action id="com.aptana.ruby.core.ui.rubyProjectWizard"/>
+<new_wizard_action id="com.aptana.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.radrails.rails.ui.projectWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.aptana.explorer.view"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="com.aptana.terminal.views.terminal"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.aptana.samples.ui.SamplesView"/>
+<view id="com.aptana.snippets.ui.views.SnippetsView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="com.aptana.explorer.view" label="App Explorer"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="com.aptana.ui.io.remoteview" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1482aa9" ratio="0.75" ratioLeft="882" ratioRight="294" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.19982994" ratioLeft="235" ratioRight="941" relationship="2" relative="left"/>
+<info folder="true" part="terminalArea" ratio="0.75" ratioLeft="636" ratioRight="212" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="com.aptana.terminal.views.terminal" label="Terminal"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@17d1b24" ratio="0.75" ratioLeft="636" ratioRight="212" relationship="4" relative="left">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.aptana.samples.ui.SamplesView" label="Samples"/>
+<page content="com.aptana.snippets.ui.views.SnippetsView" label="Snippets"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/C:/Users/student/Desktop/deanwolsen/index.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" uri="file:/C:/Users/student/Desktop/deanwolsen/stylesheet.css"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/C:/Users/student/Desktop/deanwolsen/Maps.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/C:/Users/student/Desktop/deanwolsen/contacts.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/C:/Users/student/Desktop/deanwolsen/Maps.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/C:/Users/student/Desktop/deanwolsen/Education.html"/>
+</editors>
+<item historyLabel="Maps.html" index="2">
+<position/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position/>
+</item>
+<item historyLabel="Maps.html" index="2">
+<position info="not_deleted" x="2132" y="0"/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="2640" y="0"/>
+</item>
+<item historyLabel="Maps.html" index="2">
+<position/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="2565" y="0"/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="2542" y="0"/>
+</item>
+<item historyLabel="Maps.html" index="2">
+<position/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="2471" y="0"/>
+</item>
+<item historyLabel="Maps.html" index="2">
+<position info="not_deleted" x="5553" y="0"/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="2645" y="0"/>
+</item>
+<item historyLabel="Maps.html" index="2">
+<position info="not_deleted" x="6382" y="0"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position info="not_deleted" x="2188" y="0"/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="4787" y="0"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="4610" y="0"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="4787" y="0"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="4784" y="0"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Maps.html" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="4722" y="0"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position info="not_deleted" x="2378" y="0"/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="4901" y="0"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position info="not_deleted" x="2540" y="0"/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="4711" y="0"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position info="not_deleted" x="2566" y="0"/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="4901" y="0"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="4676" y="0"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position info="not_deleted" x="1595" y="0"/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="4676" y="0"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position info="not_deleted" x="1550" y="8"/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="4630" y="0"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position info="not_deleted" x="1550" y="8"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position info="not_deleted" x="1872" y="0"/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="912" y="15"/>
+</item>
+<item historyLabel="contacts.html" index="3">
+<position info="not_deleted" x="1561" y="0"/>
+</item>
+<item historyLabel="Education.html" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="912" y="15"/>
+</item>
+<item active="true" historyLabel="stylesheet.css" index="1">
+<position info="not_deleted" x="3863" y="12"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="Education.html" tooltip="C:\Users\student\Desktop\deanwolsen\Education.html">
+<persistable uri="file:/C:/Users/student/Desktop/deanwolsen/Education.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="Maps.html" tooltip="C:\Users\student\Desktop\deanwolsen\Maps.html">
+<persistable uri="file:/C:/Users/student/Desktop/deanwolsen/Maps.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="contacts.html" tooltip="C:\Users\student\Desktop\deanwolsen\contacts.html">
+<persistable uri="file:/C:/Users/student/Desktop/deanwolsen/contacts.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" name="stylesheet.css" tooltip="C:\Users\student\Desktop\deanwolsen\stylesheet.css">
+<persistable uri="file:/C:/Users/student/Desktop/deanwolsen/stylesheet.css"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="goodworks.html" tooltip="C:\Users\student\Desktop\deanwolsen\goodworks.html">
+<persistable uri="file:/C:/Users/student/Desktop/deanwolsen/goodworks.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="C:\Users\student\Desktop\deanwolsen\index.html">
+<persistable uri="file:/C:/Users/student/Desktop/deanwolsen/index.html"/>
+</file>
+</mruList>
+</workbench>

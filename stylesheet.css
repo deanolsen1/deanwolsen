@@ -53,7 +53,7 @@ nav a:hover{color:#A66F00;
 }*/
 
 h1 {
-	font-size: 125pt;
+	font-size: 110pt;
 	letter-spacing: -5pt;
 	line-height: 80%;
 	margin-bottom: -10pt;
@@ -150,12 +150,6 @@ h2#contacts {
 	color: #807127;
 }
 
-table#ctable {
-	width: 200px;
-	align: center;
-	border-spacing: 0px;
-}
-
 .lightbox {
 	fitImagesInViewport: false;
 }
@@ -163,13 +157,23 @@ table#ctable {
 .span lb-caption {
 	text-align:center;
 	font-family: "Roboto";
-	font-size: 14pt; }
+	font-size: 14pt; 
+}
+
+.mapicon {
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 10%
+	margin-right:-2%
+}
 
 .m2 {
 	font-family: "Roboto";
 	font-size: 10pt;
 	text-align: justify;
 	font-weight:normal;
+	padding-top: 5%;
+	padding-right: 5%;
 }
 
 .marklogo {
@@ -205,46 +209,11 @@ table#ctable {
 
 .g3 {
 	font-family: "Roboto";
-	color: #603913;
+	color: #566385;
 	font-weight: bold;
-	font-size: 14pt;
+	font-size: 16pt;
 }
 
-.btn-info {
-	text-align: center;
-}
-
-/*The various text padding on the Education page to make the text line up correctly with the logos.*/
-.edtext {
-	padding-top: 10px;
-	font-size: 14pt;
-	line-height: 100%;
-	font-family: "Roboto";
-	font-weight:bold;
-}
-
-.edtext2 {
-	padding-top: 35px;
-	font-size: 14pt;
-	font-family: "Roboto";
-	font-weight: bold;
-	line-height: 100%;
-}
-
-.edtext3 {
-	padding-top: 35px;
-	line-height: 100%;
-	font-size: 14pt;
-	font-family: "Roboto";
-}
-
-.dl-horizontal dt {
-	width: 500px;
-	height: auto;
-	overflow: visible;
-	padding-right: 15px;
-	text-decoration: none;
-}
 .g1 a:link {
 	color:#630460;
 	text-decoration:none;
@@ -256,7 +225,7 @@ table#ctable {
 }
 
 .g1 a:hover {
-	color:#566385;
+	color:#806327;
 	text-decoration:none;
 }
 
@@ -265,8 +234,38 @@ table#ctable {
 	text-decoration:none;
 }
 
+/*The various text padding on the Education page to make the text line up correctly with the logos.*/
+.edtext {
+	padding-top: 10px;
+	font-size: 14pt;
+	letter-spacing:0pt;
+	line-height: 100%;
+	font-weight: 200;
+}
 
+.edtext2 {
+	padding-top: 35px;
+	font-size: 14pt;
+	letter-spacing:0pt;
+	font-family: "Franklin Gothic Heavy";
+	line-height: 100%;
+}
 
+.edtext3 {
+	padding-top: 35px;
+	line-height: 100%;
+	font-size: 14pt;
+	letter-spacing:0pt;
+	font-family: "Franklin Gothic Heavy";
+}
+
+.dl-horizontal dt {
+	width: 500px;
+	height: auto;
+	overflow: visible;
+	padding-right: 15px;
+	text-decoration: none;
+}
 
 /*Contact page text and padding.*/
 .dl-horizontal dd .ctext {
@@ -284,6 +283,25 @@ table#ctable {
 /*Spaces out the text in the Nav bar.*/
 nav a {
 	padding-right: 10px;
+}
+
+.contactform {
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+.inputName {
+	font-family:"Roboto";
+}
+
+.btn-block {
+	width:auto;
+}
+
+.linkedin {
+	padding: 25px;
+	margin-left: 10px;
+	text-align: center;
 }
 
 span.glyphicon-envelope {
