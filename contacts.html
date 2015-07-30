@@ -38,30 +38,32 @@
 
             <h1>Dean Olsen</h1>
             <h2 id="contacts">Contact.</h2>
-
-                <form action="" method="POST" enctype="multipart/form-data" id="form_id">
-                    <div class="row">
+                   <form action="http://www.bluehost.com/bluemail" enctype="multipart/form-data" method="POST"> 
+                   	<div class="row">
                         <div class="col-sm-12">
                             <div class="contactform">
 						
 						        <div class="form-group">
 						        <h4 style="font-family:Roboto; color:gray; text-align:center;"><label for="inputName">Send me a message. I&rsquo;d like to hear from you.</label></h4>
-						            <textarea name="career[message]" style="font-family:Roboto" class="form-control" tabindex="1" placeholder="Your name" pattern="[a-zA-Z. ]{1,50}" required></textarea>
+						            <input type="text" name="Name" placeholder="Your name" pattern="[a-zA-Z. ]{1,50}" required>
 						        </div>
 
 						        <div class="form-group" style="font-family:Roboto">
-						            <textarea name="career[message]" class="form-control" tabindex="2" placeholder="Your email address" required></textarea>
+						            <input type="email" name="Email" placeholder="Your email"  required>
 						        </div>
 
 						        <div class="form-group" style="font-family:Roboto">
-						            <textarea name="career[message]" class="form-control" tabindex="3" placeholder="Your message" required></textarea>
+						            <input type="text" name="Message" placeholder="Your message" required>
 						        </div>
 
-						        <button type="submit" name="submit"  class="btn btn-primary btn-block center-block" tabindex="4">Send</button>
+						        <button type="submit" name="submit"  class="btn btn-primary btn-block center-block" >Send</button>
+						        <input type="hidden" name="sendtoemail" value="dean@deanwolsen.com" >
+						        <input type="hidden" name="redirect" value="http://www.deanwolsen.com/contacts.html"><br>
                             </div>
                         </div>
                     </div>
-				</form>        
+                    
+				</form>      
 
             <div class="row">
                 <div class="col-sm-12">
