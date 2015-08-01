@@ -304,18 +304,7 @@ nav a {
 	text-align: center;
 }
 
-span.glyphicon-envelope {
-	font-size: 5.8em;
-	color: #807127;
-	margin-bottom: 20px;
-	margin-right: 2px;
-}
-span.glyphicon-home {
-	font-size: 5.8em;
-	color: #566385;
-	margin-bottom: 20px;
-	margin-right: 2px;
-}
+
 .at {
 	font-size: 6em;
 	color: red;
