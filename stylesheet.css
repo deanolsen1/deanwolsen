@@ -69,7 +69,6 @@ h1#index{
 }
 
 /* Colors the index page links*/
-
 h2#index{
 	font-size: 54pt;
 	letter-spacing: -2pt;
@@ -80,6 +79,57 @@ h2#index{
 	margin-bottom: 20px;
 }
 
+/*h2.index1{
+	font-size: 54pt;
+	letter-spacing: -2pt;
+	margin-top: 30px;
+	color: #A66F00;
+	text-align: center;
+	line-height: 80%;
+	margin-bottom: 20px;
+	visibility: hidden;
+}
+h2.index2{
+	font-size: 54pt;
+	letter-spacing: -2pt;
+	margin-top: 30px;
+	color: #A66F00;
+	text-align: center;
+	line-height: 80%;
+	margin-bottom: 20px;
+	visibility: hidden;
+}
+h2.index3{
+	font-size: 54pt;
+	letter-spacing: -2pt;
+	margin-top: 30px;
+	color: #A66F00;
+	text-align: center;
+	line-height: 80%;
+	margin-bottom: 20px;
+	visibility: hidden;
+}
+h2.index4{
+	font-size: 54pt;
+	letter-spacing: -2pt;
+	margin-top: 30px;
+	color: #A66F00;
+	text-align: center;
+	line-height: 80%;
+	margin-bottom: 20px;
+	visibility: hidden;
+}
+h2.index5{
+	font-size: 54pt;
+	letter-spacing: -2pt;
+	margin-top: 30px;
+	color: #A66F00;
+	text-align: center;
+	line-height: 80%;
+	margin-bottom: 20px;
+		visibility: hidden;*/
+
+}
 h3 {
 /*	text-align: center;
 */}
